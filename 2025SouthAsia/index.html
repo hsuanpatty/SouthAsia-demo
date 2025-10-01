@@ -3,11 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="og:description" content="2025南亞" />
-    <meta property="og:title" content="巨匠旅遊-2025南亞" />
-    <meta property="og:type" content="website" />
     <title>巨匠旅遊-2025南亞</title>
+    <link
+      rel="canonical"
+      href="https://www.artisan.com.tw/2025_events/2025SouthAsia/index.aspx"
+    />
 
+    <link
+      rel="shortcut icon"
+      href="https://www.artisan.com.tw/images/artisan.ico"
+    />
+    <meta
+      name="description"
+      content="巨匠旅遊-璀璨南亞巡遊,探尋世界遺產與山城之美"
+    />
+
+    <meta
+      name="keywords"
+      content="巨匠旅遊璀璨南亞巡遊,璀璨南亞巡遊,南亞巡遊,南亞不丹,印度,尼泊爾,虎穴寺,札西秋宗,切米拉康,印度旅遊,尼泊爾旅遊,不丹旅遊,斯里蘭卡旅遊,團體旅遊,跟團,主題旅遊,巨匠旅遊"
+    />
+    <!-- open graph  -->
+    <meta property="og:site_name" content="璀璨南亞巡遊,古老傳奇" />
+    <meta
+      property="og:url"
+      content="https://www.artisan.com.tw/2025_events/2025SouthAsia/index.aspx"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="璀璨南亞巡遊,古老傳奇" />
+    <meta name="og:description" content="探尋世界遺產與山城之美!" />
+    <meta property="og:image" content="./image/thumb.jpg" />
+    <meta property="og:image:alt" content="璀璨南亞巡遊,古老傳奇" />
+
+    <!-- 字體 -->
     <link
       rel="stylesheet"
       type="text/css"
@@ -18,6 +45,35 @@
     <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="./css/owl.carousel.min.css" />
     <link rel="stylesheet" href="./css/animate.compat.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-7BSNH9HQ26"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-7BSNH9HQ26");
+    </script>
+
+    <!--Line click conversion-->
+    <script>
+      window.addEventListener("load", function (event) {
+        document.querySelectorAll('a[href*="lin.ee/"]').forEach(function (x) {
+          x.addEventListener("click", function (e) {
+            gtag("event", "conversion", {
+              send_to: "AW-684764926/xJawCNa_7JIYEP7dwsYC",
+            });
+            gtag("event", "line_click", { send_to: "G-7BSNH9HQ26" });
+          });
+        });
+      });
+    </script>
   </head>
   <body>
     <!--  banner  -->
@@ -35,7 +91,6 @@
           width="1920"
           height="950"
           class="w-full"
-          alt=""
         />
       </picture>
 
@@ -44,7 +99,6 @@
           <img
             src="./image/title.png"
             class="animated-circle w-85 md:w-95 lg:w-80 m-auto"
-            alt=""
           />
         </div>
       </div>
@@ -89,7 +143,7 @@
           <div class="grid grid-cols-2 gap-6">
             <div class="col-span-2 sm:col-span-1 m-auto">
               <div class="md:w-80 m-auto leading-p">
-                <img src="./image/label-1.png" class="w-100" alt="" />
+                <img src="./image/label-1.png" class="w-100" />
                 <p class="pt-8 md:pb-5 md:px-2 2xl:px-10">
                   不丹–深藏在喜馬拉雅山脈的快樂國度，維護和保存古老傳統的國家，有「最後的香格里拉」之稱。尋訪坐落於懸崖峭壁上的虎穴寺、最華麗浪漫的普納卡宗、藏有包羅萬象巧奪天工的塔宗博物館及傳統民俗舞蹈，見證不丹的建築及人文之美。進入全世界最有名的紅茶產區–大吉嶺，見識宏偉喜馬拉雅山脈日出，搭乘高山蒸汽小火車欣賞滿山綠野，體驗原始純樸自然風光。
                 </p>
@@ -100,16 +154,16 @@
                 class="products-list owl-carousel owl-theme owl-loaded owl-drag text-center px-8"
               >
                 <div>
-                  <img src="./image/hill-1.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-1.png" class="w-80 xl:w-100" />
                 </div>
                 <div>
-                  <img src="./image/hill-2.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-2.png" class="w-80 xl:w-100" />
                 </div>
                 <div>
-                  <img src="./image/hill-3.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-3.png" class="w-80 xl:w-100" />
                 </div>
                 <div>
-                  <img src="./image/hill-4.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-4.png" class="w-80 xl:w-100" />
                 </div>
               </div>
             </div>
@@ -124,7 +178,6 @@
           <img
             src="./image/referral.png"
             class="w-80 md:w-40 xl:w-25 m-auto pt-8 pb-5"
-            alt=""
           />
           <div class="md:w-90 journey m-auto">
             <p class="dashed-two"></p>
@@ -132,10 +185,11 @@
             <!-- 1. -->
             <a
               href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20240510000004"
+              target="_blank"
             >
               <h1>山中傳奇 尼泊爾 & 幸福國度 不丹 雙寶經典9天</h1>
               <p class="feature flex">
-                <span><img src="./image/icon.png" alt="" /></span>
+                <span><img src="./image/icon.png" /></span>
                 前十名早鳥優惠3000｜入住五星飯店不丹5晚&尼泊爾首都2晚｜不丹世界十大超級寺廟
               </p>
             </a>
@@ -144,8 +198,9 @@
                 <span class="date-time">出發日期</span>
                 <a
                   href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20240510000004"
+                  target="_blank"
                   class="JQellipsis date-line"
-                  >6/7.21.28、7/5、8/2.16、9/13、10/7.18、11/1.15.29、12/6.13、1/03.17.31</a
+                  >11/1.15.29、12/6.13、1/3.17.31</a
                 >
               </div>
               <div class="price">
@@ -161,10 +216,11 @@
             <!-- 2. -->
             <a
               href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20250220000002"
+              target="_blank"
             >
               <h1>樂遊幸福王國不丹9天</h1>
               <p class="feature flex">
-                <span><img src="./image/icon.png" alt="" /></span>
+                <span><img src="./image/icon.png" /></span>
                 虎穴寺│札⻄秋宗│切米拉康│烏瑪優閒午茶│普巴曼陀羅展示中心│傳統熱⽯浴體驗
               </p>
             </a>
@@ -173,8 +229,9 @@
                 <span class="date-time">出發日期</span>
                 <a
                   href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20250220000002"
+                  target="_blank"
                   class="JQellipsis date-line"
-                  >6/8.22、7/20、8/3.24、9/7.21.28、10/5.19、11/2.16.30、12/14.28、1/4.18</a
+                  >11/2.16.30、12/14.28、1/4.18</a
                 >
               </div>
               <div class="price">
@@ -190,10 +247,11 @@
             <!-- 3. -->
             <a
               href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20250217000004"
+              target="_blank"
             >
               <h1>不丹旅遊專賣店★幸福國度 不丹8天-台北直飛</h1>
               <p class="feature flex">
-                <span><img src="./image/icon.png" alt="" /></span>
+                <span><img src="./image/icon.png" /></span>
                 直飛不丹│全程四星飯店│三城連泊2晚│送網卡+司機領隊小費│10人即成團
               </p>
             </a>
@@ -202,8 +260,9 @@
                 <span class="date-time">出發日期</span>
                 <a
                   href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20250217000004"
+                  target="_blank"
                   class="JQellipsis date-line"
-                  >10/4.6.11.13、12/15.22</a
+                  >12/15.22</a
                 >
               </div>
               <div class="price">
@@ -234,7 +293,7 @@
           <div class="grid grid-cols-2 gap-6">
             <div class="col-span-2 sm:col-span-1 m-auto md:order-2">
               <div class="md:w-80 m-auto leading-p">
-                <img src="./image/label-2.png" class="w-100" alt="" />
+                <img src="./image/label-2.png" class="w-100" />
                 <p class="pt-8 md:pb-5 md:px-2 2xl:px-10">
                   世界四大文明古國之一，眾多民族及種族的融合，所構成的人文風情與各具魅力世界文化遺產是印度最大的特色！深入造訪印度金三角–德里、阿格拉、捷普，騎上大象前往宏偉的琥珀堡，親眼見證印度詩人泰戈爾筆下「一滴永恆的淚珠」的泰姬瑪哈陵，晨曦時刻乘船觀賞聞名世界的恆河日出，於傍晚時分欣賞精彩絢麗的燈光水舞秀，充分感受這個不思議國度的自然與人文之美！
                 </p>
@@ -247,16 +306,16 @@
                 class="products-list owl-carousel owl-theme owl-loaded owl-drag text-center px-8"
               >
                 <div>
-                  <img src="./image/hill-5.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-5.png" class="w-80 xl:w-100" />
                 </div>
                 <div>
-                  <img src="./image/hill-6.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-6.png" class="w-80 xl:w-100" />
                 </div>
                 <div>
-                  <img src="./image/hill-7.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-7.png" class="w-80 xl:w-100" />
                 </div>
                 <div>
-                  <img src="./image/hill-8.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-8.png" class="w-80 xl:w-100" />
                 </div>
               </div>
             </div>
@@ -271,7 +330,6 @@
           <img
             src="./image/referral.png"
             class="w-80 md:w-40 xl:w-25 m-auto pt-8 pb-5"
-            alt=""
           />
           <div class="md:w-90 journey m-auto">
             <p class="dashed-two"></p>
@@ -279,10 +337,11 @@
             <!-- 1. -->
             <a
               href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20240311000004"
+              target="_blank"
             >
               <h1>不思議印度~五星國家級皇宮鳥園金三角泰姬璀璨水舞9天</h1>
               <p class="feature flex">
-                <span><img src="./image/icon.png" alt="" /></span>
+                <span><img src="./image/icon.png" /></span>
                 入住六晚5星飯店&一晚皇宮飯店 |泰姬瑪哈陵+亞格拉堡+古達明那高塔 |
                 阿克薩達神廟燈光水舞秀
               </p>
@@ -292,14 +351,14 @@
                 <span class="date-time">出發日期</span>
                 <a
                   href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20240311000004"
+                  target="_blank"
                   class="JQellipsis date-line"
-                  >2/14.28、3/7.12.15.22.28.29、4/4.26、5/2.9.17.24.31、6/6.14.20.27、7/4.18
-                  8/1.15.29、9/5</a
+                  >11/1.8.15.22、12/6.13.20、1/10.17.24.31、2/12.13.28、3/14.21</a
                 >
               </div>
               <div class="price">
                 <p>
-                  <span class="price-cash">$</span>56,900<span
+                  <span class="price-cash">$</span>55,900<span
                     class="price-cash"
                     >起</span
                   >
@@ -309,33 +368,102 @@
             <p class="border-one"></p>
             <!-- 2. -->
             <a
-              href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20250121000001"
+              href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20250620000003"
+              target="_blank"
             >
-              <h1>印度、喀什米爾、山中健行、拉達克15天</h1>
+              <h1>
+                印度皇宮 金三角 異國情調 浪漫10天 -藍白雙城久德普爾烏代普爾
+              </h1>
               <p class="feature flex">
-                <span><img src="./image/icon.png" alt="" /></span>
-                每團前十名送小費 | 10人可成團 | 拉達克×班公措 | 列城最美公路之旅
-                | 索馬策馬健行 | 達爾湖船屋
+                <span><img src="./image/icon.png" /></span>
+                每團前十名送小費 | 入住八晚5星飯店 | 泰姬瑪哈陵 | 亞格拉紅堡 |
+                古達明那塔
               </p>
             </a>
             <div class="date">
               <div>
                 <span class="date-time">出發日期</span>
                 <a
-                  href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20250121000001"
+                  href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20250620000003"
+                  target="_blank"
                   class="JQellipsis date-line"
-                  >6/26、7/26、8/7.28、9/12</a
+                  >2/11</a
                 >
               </div>
               <div class="price">
                 <p>
-                  <span class="price-cash">$</span>149,800<span
+                  <span class="price-cash">$</span>95,900<span
                     class="price-cash"
                     >起</span
                   >
                 </p>
               </div>
             </div>
+            <p class="border-one"></p>
+            <!-- 3. -->
+            <a
+              href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20250407000003"
+              target="_blank"
+            >
+              <h1>奇幻南印度 古文明 世界遺產 慢遊15天 入住孟買泰姬</h1>
+              <p class="feature flex">
+                <span><img src="./image/icon.png" /></span>
+                每團前十名送小費 | 10人可成團 | 人力車遊×嘟嘟車遊 |
+                造訪8處聯合國世界遺產 | 入住孟買百年泰姬飯店 | 卡塔卡利舞劇
+              </p>
+            </a>
+            <div class="date">
+              <div>
+                <span class="date-time">出發日期</span>
+                <a
+                  href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20250407000003"
+                  target="_blank"
+                  class="JQellipsis date-line"
+                  >10/29、11/5.19、12/3.17、1/7.21、2/11、3/4.18</a
+                >
+              </div>
+              <div class="price">
+                <p>
+                  <span class="price-cash">$</span>158,800<span
+                    class="price-cash"
+                    >起</span
+                  >
+                </p>
+              </div>
+            </div>
+            <p class="border-one"></p>
+            <!-- 4. -->
+            <a
+              href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230919000004"
+              target="_blank"
+            >
+              <h1>不思議的迷人 印度 ＆ 純淨的慢活 不丹 幸福雙國10天</h1>
+              <p class="feature flex">
+                <span><img src="./image/icon.png" /></span>
+                每團前十名送小費 | 含印度&不丹簽證 | 4晚不丹+3晚印度 |
+                不丹動物保護區 | 虎穴寺 | 射箭體驗
+              </p>
+            </a>
+            <div class="date">
+              <div>
+                <span class="date-time">出發日期</span>
+                <a
+                  href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230919000004"
+                  target="_blank"
+                  class="JQellipsis date-line"
+                  >2/11</a
+                >
+              </div>
+              <div class="price">
+                <p>
+                  <span class="price-cash">$</span>123,900<span
+                    class="price-cash"
+                    >起</span
+                  >
+                </p>
+              </div>
+            </div>
+
             <p class="border-one"></p>
             <p class="dashed-two"></p>
             <p class="dashed-two"></p>
@@ -355,7 +483,7 @@
           <div class="grid grid-cols-2 gap-6">
             <div class="col-span-2 sm:col-span-1 m-auto">
               <div class="md:w-80 m-auto leading-p">
-                <img src="./image/label-3.png" class="w-100" alt="" />
+                <img src="./image/label-3.png" class="w-100" />
                 <p class="pt-8 md:pb-5 md:px-2 2xl:px-10">
                   被稱為「印度洋上的美麗珍珠」，「孤獨星球」評選必去旅遊國家，擁有獨特的氣候環境與悠久的歷史文化，深入探索佛教聖地波露那露瓦、天空之城斯基里亞、海濱古城加耳等多處世界遺產，或是乘坐吉普車進入國家公園享受刺激的野生叢林體驗，展開一場難忘的文化與自然生態之旅。斯里蘭卡同時是世界著名的紅茶產區，搭乘世界上最美麗的高山景觀火車穿過茂密的森林和充滿活力的茶園，品嘗載譽全球的錫蘭紅茶，享受愜意茶園風光。
                 </p>
@@ -366,16 +494,16 @@
                 class="products-list owl-carousel owl-theme owl-loaded owl-drag text-center px-8"
               >
                 <div>
-                  <img src="./image/hill-9.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-9.png" class="w-80 xl:w-100" />
                 </div>
                 <div>
-                  <img src="./image/hill-10.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-10.png" class="w-80 xl:w-100" />
                 </div>
                 <div>
-                  <img src="./image/hill-11.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-11.png" class="w-80 xl:w-100" />
                 </div>
                 <div>
-                  <img src="./image/hill-12.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-12.png" class="w-80 xl:w-100" />
                 </div>
               </div>
             </div>
@@ -390,7 +518,6 @@
           <img
             src="./image/referral.png"
             class="w-80 md:w-40 xl:w-25 m-auto pt-8 pb-5"
-            alt=""
           />
           <div class="md:w-90 journey m-auto">
             <p class="dashed-two"></p>
@@ -398,10 +525,11 @@
             <!-- 1. -->
             <a
               href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230712000003"
+              target="_blank"
             >
               <h1>五星珍珠～斯里蘭卡『高山火車．生態世遺』9天</h1>
               <p class="feature flex">
-                <span><img src="./image/icon.png" alt="" /></span>
+                <span><img src="./image/icon.png" /></span>
                 前十名早鳥優惠3000元 | 五星精選飯店 |
                 高山景觀列車+五大世遺+米納里耶動物獵奇+馬渡河遊船
               </p>
@@ -411,13 +539,14 @@
                 <span class="date-time">出發日期</span>
                 <a
                   href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230712000003"
+                  target="_blank"
                   class="JQellipsis date-line"
-                  >2/13.27、3/8.13.27、4/2.16.30、5/14.28、6/11.25、7/9.23、8/6.20、9/3.17、10/1.15</a
+                  >11/1.22、12/6.20、1/10.17.31、2/11.12.17</a
                 >
               </div>
               <div class="price">
                 <p>
-                  <span class="price-cash">$</span>67,900<span
+                  <span class="price-cash">$</span>69,900<span
                     class="price-cash"
                     >起</span
                   >
@@ -427,26 +556,28 @@
             <p class="border-one"></p>
             <!-- 2. -->
             <a
-              href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230825000001"
+              href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230223000003"
+              target="_blank"
             >
-              <h1>斯里蘭卡 五星珍珠之戀雅拉 高山海濱雙火車10天</h1>
+              <h1>斯里蘭卡『雅拉生態．五大世遺．南亞珍珠之戀』9天</h1>
               <p class="feature flex">
-                <span><img src="./image/icon.png" alt="" /></span>
-                前十名早鳥優惠3000元 | 《斯里蘭卡旅遊☆精選推薦》
+                <span><img src="./image/icon.png" /></span>
+                國泰航空 | 優質渡假飯店 | 嘟嘟車遊九拱橋
               </p>
             </a>
             <div class="date">
               <div>
                 <span class="date-time">出發日期</span>
                 <a
-                  href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230825000001"
+                  href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230223000003"
+                  target="_blank"
                   class="JQellipsis date-line"
-                  >2/15、3/13.27、4/2.16.30、5/14.28、6/11.25、7/9.23、8/6.20、9/3.17、10/1.15</a
+                  >11/1.8.22.29、12/6.20、1/2.10.17.31、2/7.11.28、3/7.21</a
                 >
               </div>
               <div class="price">
                 <p>
-                  <span class="price-cash">$</span>73,900<span
+                  <span class="price-cash">$</span>56,900<span
                     class="price-cash"
                     >起</span
                   >
@@ -456,26 +587,28 @@
             <p class="border-one"></p>
             <!-- 3. -->
             <a
-              href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230223000003"
+              href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230825000001"
+              target="_blank"
             >
-              <h1>斯里蘭卡『雅拉生態．五大世遺．南亞珍珠之戀』9天</h1>
+              <h1>斯里蘭卡 五星珍珠之戀雅拉 高山海濱雙火車10天</h1>
               <p class="feature flex">
-                <span><img src="./image/icon.png" alt="" /></span>
-                國泰航空 | 優質渡假飯店 | 嘟嘟車遊九拱橋
+                <span><img src="./image/icon.png" /></span>
+                前十名早鳥優惠3000元 | 《斯里蘭卡旅遊☆精選推薦》
               </p>
             </a>
             <div class="date">
               <div>
                 <span class="date-time">出發日期</span>
                 <a
-                  href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230223000003"
+                  href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20230825000001"
+                  target="_blank"
                   class="JQellipsis date-line"
-                  >2/22、3/22.29、4/5.12.26、5/3.24、6/14.21.28、7/5.19、8/22.16.30、9/13、10/11</a
+                  >11/22、12/7、1/10.17.31、2/12.17.28、3/14、4/11.25、5/9</a
                 >
               </div>
               <div class="price">
                 <p>
-                  <span class="price-cash">$</span>59,900<span
+                  <span class="price-cash">$</span>72,900<span
                     class="price-cash"
                     >起</span
                   >
@@ -501,7 +634,7 @@
           <div class="grid grid-cols-2 gap-6">
             <div class="col-span-2 sm:col-span-1 m-auto md:order-2">
               <div class="md:w-80 m-auto leading-p">
-                <img src="./image/label-4.png" class="w-100" alt="" />
+                <img src="./image/label-4.png" class="w-100" />
                 <p class="pt-8 md:pb-5 md:px-2 2xl:px-10">
                   喜瑪拉雅山的神秘古國，不僅有豐富的文化景點，還有原始的自然生態美景。不可錯過的經典景點–加德滿都，是世界最高首都之一。城市風光被形容為「神比人多、廟比屋多」，又稱作「眾神的故鄉」。山中仙境波卡拉，是尼泊爾唯一坐擁湖光山色的小城，到此可乘舟遠遊，仰觀群峰之美，遙望山城之秀麗。而奇旺國家公園是尼泊爾第一座國家公園，可騎乘大象尋訪白犀牛、孟加拉虎等野生動物的蹤跡，同為著名的遊覽勝地。
                 </p>
@@ -514,16 +647,16 @@
                 class="products-list owl-carousel owl-theme owl-loaded owl-drag text-center px-8"
               >
                 <div>
-                  <img src="./image/hill-13.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-13.png" class="w-80 xl:w-100" />
                 </div>
                 <div>
-                  <img src="./image/hill-14.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-14.png" class="w-80 xl:w-100" />
                 </div>
                 <div>
-                  <img src="./image/hill-15.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-15.png" class="w-80 xl:w-100" />
                 </div>
                 <div>
-                  <img src="./image/hill-16.png" class="w-80 xl:w-100" alt="" />
+                  <img src="./image/hill-16.png" class="w-80 xl:w-100" />
                 </div>
               </div>
             </div>
@@ -538,7 +671,6 @@
           <img
             src="./image/referral.png"
             class="w-80 md:w-40 xl:w-25 m-auto pt-8 pb-5"
-            alt=""
           />
           <div class="md:w-90 journey m-auto">
             <p class="dashed-two"></p>
@@ -546,10 +678,11 @@
             <!-- 1. -->
             <a
               href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20160804000001"
+              target="_blank"
             >
               <h1>尼泊爾『喜瑪拉雅山的神秘古國』9天（兩段國內線）</h1>
               <p class="feature flex">
-                <span><img src="./image/icon.png" alt="" /></span>
+                <span><img src="./image/icon.png" /></span>
                 五星級或當地最優質飯店 | 騎乘大象SAFARI+塔魯族民族表演 |
                 加德滿都古都巡禮+波卡拉遊船+喜馬拉雅山日出
               </p>
@@ -559,45 +692,14 @@
                 <span class="date-time">出發日期</span>
                 <a
                   href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20160804000001"
+                  target="_blank"
                   class="JQellipsis date-line"
-                  >2/21.28、3/7.14.21.28、4/4.11.26、5/2.3.10.17.24.30、6/7.14.21.28、7/5、8/2.16
-                  9/5.13、10/7</a
-                >
+                  >11/22.29、12/4.6.20.27、1/9.31、2/14.15.28、3/7.14
+                </a>
               </div>
               <div class="price">
                 <p>
-                  <span class="price-cash">$</span>64,900<span
-                    class="price-cash"
-                    >起</span
-                  >
-                </p>
-              </div>
-            </div>
-            <p class="border-one"></p>
-            <!-- 2. -->
-            <a
-              href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20221226000008"
-            >
-              <h1>尼泊爾『神仙故鄉』9天（一段國內線）</h1>
-              <p class="feature flex">
-                <span><img src="./image/icon.png" alt="" /></span>
-                五星級或當地最高級飯店 | 隨團領隊及當地中文導遊 |
-                騎乘大象+獨木舟之旅 | 喜瑪拉雅群山風景 | 四眼天神廟
-              </p>
-            </a>
-            <div class="date">
-              <div>
-                <span class="date-time">出發日期</span>
-                <a
-                  href="https://www.artisan.com.tw/ClassifyProduct.aspx?TripNo=T20221226000008"
-                  class="JQellipsis date-line"
-                  >2/21.28、3/7.15.21.28、4/4.11.26、5/3.10.17.24.30、6/7.14.21.28、7/5、8/2.16
-                  9/5.13、10/7</a
-                >
-              </div>
-              <div class="price">
-                <p>
-                  <span class="price-cash">$</span>62,900<span
+                  <span class="price-cash">$</span>59,900<span
                     class="price-cash"
                     >起</span
                   >
